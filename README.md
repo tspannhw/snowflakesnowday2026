@@ -332,7 +332,9 @@ https://www.snowflake.com/en/developers/guides/snowflake-semantic-view-agentic-a
 
 https://www.snowflake.com/en/blog/osi-initiative-expands-partners/
 
-https://www.snowflake.com/event/partnering-for-open-standards-join-the-open-semantic-interchange/?utm_cta=website-blog-body-text-semantic-interchange-announcement-semantic-interchange-interest
+https://www.snowflake.com/event/partnering-for-open-standards-join-the-open-semantic-interchange/
+
+
 
 
 
