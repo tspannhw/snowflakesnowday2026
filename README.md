@@ -298,6 +298,42 @@ https://docs.snowflake.com/en/user-guide/snowflake-cortex/parse-document
 
 https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview
 
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents
+
+https://www.snowflake.com/en/developers/guides/getting-started-with-cortex-agents/
+
+https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-intelligence/
+
+https://docs.snowflake.com/en/release-notes/2025/other/2025-04-28-cortex-llm-model-rbac
+
+https://docs.snowflake.com/en/release-notes/2024/other/2024-07-24-cortex-llm-updates
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/evaluate-ai-applications
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability
+
+https://www.snowflake.com/en/product/features/cortex/
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-knowledge-extensions/cke-overview
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-manage
+
+https://docs.snowflake.com/en/sql-reference/commands-cortex-agent
+
+https://docs.snowflake.com/en/user-guide/views-semantic/ui
+
+https://www.snowflake.com/en/developers/guides/snowflake-semantic-view-agentic-analytics/
+
+https://www.snowflake.com/en/blog/osi-initiative-expands-partners/
+
+https://www.snowflake.com/event/partnering-for-open-standards-join-the-open-semantic-interchange/?utm_cta=website-blog-body-text-semantic-interchange-announcement-semantic-interchange-interest
+
 
 
 
