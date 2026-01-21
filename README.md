@@ -89,92 +89,56 @@
 	
 	https://docs.snowflake.com/en/user-guide/tables-iceberg-replication
 	
-2026-01-21 12:20:20 From Tim Spann to Everyone:
-	Eating lunch
-	
-2026-01-21 12:56:01 From Tim Spann to Everyone:
-	Starting back up in 2 minutes
-	
-2026-01-21 12:57:56 From Tim Spann to Everyone:
-	We are starting back up
-	
-2026-01-21 13:01:07 From Tim Spann to Everyone:
-	10,000 warehouses per account.   Bloomberg on the data sharing accounts has many, many accounts
-	
-2026-01-21 13:05:23 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/tables-iceberg-query-using-external-query-engine-snowflake-horizon
 	
-2026-01-21 13:05:48 From Tim Spann to Everyone:
 	https://www.snowflake.com/en/product/features/horizon/
 	
-2026-01-21 13:06:50 From Tim Spann to Everyone:
 	https://www.snowflake.com/en/news/press-releases/snowflake-delivers-the-enterprise-lakehouse-with-enhanced-open--data-access-and-flexibility-for-agentic-ai/
 	
-2026-01-21 13:15:36 From Tito Mijares to Everyone:
 	https://www.snowflake.com/en/why-snowflake/partners/all-partners/sap/
 	
-2026-01-21 13:15:53 From Tito Mijares to Everyone:
 	https://www.snowflake.com/en/blog/sap-snowflake-partnership-ai-data-cloud/
 	
-2026-01-21 13:32:39 From Tim Spann to Everyone:
 	https://www.snowflake.com/en/why-snowflake/snowflake-security-hub/
 	
-2026-01-21 13:33:15 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/data-quality-anomaly
 	
-2026-01-21 13:33:27 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/data-quality-ui-monitor
 	
-2026-01-21 13:33:45 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/data-quality-profile
 	
-2026-01-21 13:34:09 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/external-lineage
 	
-2026-01-21 13:34:15 From Tim Spann to Everyone:
 	https://openlineage.io/
 	
-2026-01-21 13:34:35 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/developer-guide/logging-tracing/logging-tracing-overview
 	
-2026-01-21 13:34:40 From Tim Spann to Everyone:
 	https://opentelemetry.io/
 	
-2026-01-21 13:34:53 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/release-notes/2025/other/2025-09-17-task-lineage
 	
-2026-01-21 13:35:10 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/ui-snowsight-lineage
 	
-2026-01-21 13:35:36 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/dynamic-tables-about
 	
-2026-01-21 13:36:32 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/data-engineering/dbt-projects-on-snowflake
 	
-2026-01-21 13:37:18 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/tables-external-intro
 	
-2026-01-21 13:37:26 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/tables-hybrid
 	
-2026-01-21 13:37:34 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/interactive
 	
-2026-01-21 13:37:56 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/tasks-events
 	
-2026-01-21 13:38:41 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/user-guide/terraform
 	
-2026-01-21 13:39:53 From Tim Spann to Everyone:
 	REST API    https://docs.snowflake.com/en/user-guide/external-lineage
 	
-2026-01-21 13:40:11 From Tim Spann to Everyone:
 	/api/v2/lineage/external-lineage
 	
-2026-01-21 13:43:23 From Tim Spann to Everyone:
 	https://docs.snowflake.com/en/developer-guide/builders/observability
+
 	https://docs.getmontecarlo.com/docs/snowflake
 
 	https://docs.snowflake.com/en/user-guide/replication-intro
