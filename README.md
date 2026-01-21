@@ -334,7 +334,41 @@ https://www.snowflake.com/en/blog/osi-initiative-expands-partners/
 
 https://www.snowflake.com/event/partnering-for-open-standards-join-the-open-semantic-interchange/
 
+https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview
 
+https://www.snowflake.com/en/developers/guides/ml-forecasting-ad/
+
+https://github.com/sfc-gh-maduran/AISQL_FINSERV_AM
+
+https://github.com/sfc-gh-maduran/RETAIL_BANKING_AI_DEMO
+
+https://www.snowflake.com/en/product/features/end-to-end-ml-workflows/
+
+https://www.snowflake.com/en/engineering-blog/machine-learning-container-runtime/
+
+https://www.snowflake.com/en/developers/solutions-center/getting-started-with-snowflake-notebook-container-runtime/
+
+https://www.snowflake.com/en/developers/solutions-center/harness-gpus-in-snowflake-notebooks-to-train-an-xgboost-model/
+
+https://www.snowflake.com/en/developers/solutions-center/running-distributed-pytorch-models-on-snowflake-an-end-to-end-ml-solution/
+
+https://www.snowflake.com/data-cloud-academy-generative-ai-llm/?utm_cta=website-workload-ml-product-feature-timely-content-gen-ai-ml-school
+
+https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/overview
+
+https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/model-observability
+
+https://www.snowflake.com/en/developers/guides/scale-embeddings-with-snowflake-notebooks-on-container-runtime/
+
+https://www.snowflake.com/en/developers/guides/develop-and-manage-ml-models-with-feature-store-and-model-registry/
+
+https://www.snowflake.com/en/developers/guides/intro-to-machine-learning-with-snowpark-ml-for-python/
+
+https://www.snowflake.com/en/developers/guides/getting-started-with-ml-observability-in-snowflake/
+
+https://docs.snowflake.com/en/developer-guide/snowflake-ml/ml-jobs/overview?
+
+https://www.snowflake.com/en/blog/scalable-model-development-production-snowflake-ml/
 
 
 
