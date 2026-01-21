@@ -26,6 +26,9 @@ A curated and categorized collection of documentation, guides, blogs, and demos 
 * [Cortex Knowledge Extensions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-knowledge-extensions/cke-overview)  
 * [Creating Snowflake Guides with Agents](https://www.snowflake.com/en/developers/guides/create-snowflake-guides-with-agents-md/) | [Agents.md](https://agents.md/)
 
+
+<img width="7492" height="2841" alt="image" src="https://github.com/user-attachments/assets/c63dd61b-bd89-49a0-ab97-a4f4f5ecc728" />
+
 ### **Machine Learning (Snowpark ML)**
 
 * [Snowpark ML Overview](https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview)  
