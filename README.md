@@ -285,6 +285,22 @@ Each Spark Connector 3 package supports most versions of Spark.
 
 
 
+### Cortex AI
+
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql
+
+https://docs.snowflake.com/en/sql-reference/functions/ai_filter
+
+https://docs.snowflake.com/en/sql-reference/functions/ai_redact
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/parse-document
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview
+
+
+
+
 
 
 
