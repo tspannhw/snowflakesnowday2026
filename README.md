@@ -354,6 +354,8 @@ https://www.snowflake.com/en/developers/solutions-center/running-distributed-pyt
 
 https://www.snowflake.com/data-cloud-academy-generative-ai-llm/?utm_cta=website-workload-ml-product-feature-timely-content-gen-ai-ml-school
 
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-playground
+
 https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/overview
 
 https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/model-observability
@@ -369,6 +371,9 @@ https://www.snowflake.com/en/developers/guides/getting-started-with-ml-observabi
 https://docs.snowflake.com/en/developer-guide/snowflake-ml/ml-jobs/overview?
 
 https://www.snowflake.com/en/blog/scalable-model-development-production-snowflake-ml/
+
+https://docs.snowflake.com/en/developer-guide/snowflake-ml/experiments
+
 
 
 
