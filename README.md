@@ -425,3 +425,11 @@ https://docs.snowflake.com/en/user-guide/budgets
 https://docs.snowflake.com/en/user-guide/budgets/monitor
 
 
+
+
+### Observe
+
+https://www.snowflake.com/en/news/press-releases/snowflake-announces-intent-to-acquire-observe-to-deliver-ai-powered-observability-at-enterprise-scale/
+
+
+
