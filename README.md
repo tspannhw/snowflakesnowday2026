@@ -415,4 +415,13 @@ https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability
 
 https://www.snowflake.com/en/developers/guides/getting-started-with-ai-observability/
 
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/reference
+
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/provisioned-throughput
+
+https://docs.snowflake.com/en/user-guide/budgets
+
+https://docs.snowflake.com/en/user-guide/budgets/monitor
+
 
