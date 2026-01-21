@@ -382,3 +382,6 @@ https://docs.snowflake.com/en/developer-guide/snowflake-ml/experiments
 https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-finetuning
 
 
+https://www.snowflake.com/en/blog/container-runtime-GPU-training-inference/
+
+
