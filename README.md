@@ -379,6 +379,6 @@ https://docs.snowflake.com/en/developer-guide/snowflake-ml/experiments
 
 
 
-
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-finetuning
 
 
