@@ -396,4 +396,23 @@ https://www.snowflake.com/en/blog/snowflake-cortex-ai-cortex-guard-llm-safeguard
 
 https://www.snowflake.com/en/blog/fuel-ai-strategy-with-connected-accessible-data/
 
+https://medium.com/snowflake/optimize-snowflake-intelligence-cortex-agent-setup-a-complete-ai-powered-guide-f01383ac6969
+
+
+
+https://www.snowflake.com/en/developers/guides/create-snowflake-guides-with-agents-md/
+https://agents.md/
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/evaluate-ai-applications
+
+https://docs.snowflake.com/en/sql-reference/data-types-vector
+
+https://www.snowflake.com/en/blog/trulens-open-source-ai/
+
+https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/
+
+https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability
+
+https://www.snowflake.com/en/developers/guides/getting-started-with-ai-observability/
+
 
