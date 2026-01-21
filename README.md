@@ -384,4 +384,10 @@ https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-finetuning
 
 https://www.snowflake.com/en/blog/container-runtime-GPU-training-inference/
 
+https://docs.snowflake.com/en/user-guide/synthetic-data
 
+https://docs.snowflake.com/en/sql-reference/functions-data-generation
+
+https://www.snowflake.com/en/news/press-releases/snowflake-unveils-new-developer-tools-to-supercharge-enterprise-grade-agentic-ai-development/
+
+https://www.snowflake.com/events/snowflake-connect-ai/?
