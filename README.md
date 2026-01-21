@@ -375,6 +375,7 @@ https://www.snowflake.com/en/blog/scalable-model-development-production-snowflak
 https://docs.snowflake.com/en/developer-guide/snowflake-ml/experiments
 
 
+<img width="7492" height="2841" alt="image" src="https://github.com/user-attachments/assets/b3bc5979-ee95-4160-b18f-786061fbcb28" />
 
 
 
