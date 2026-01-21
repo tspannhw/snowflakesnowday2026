@@ -243,5 +243,26 @@ https://docs.snowflake.com/en/developer-guide/stored-procedure/stored-procedures
 ### Demos
 
 * https://github.com/tspannhw/SnowflakeOpenLakehouseAthenaIceberg
+* 
+
+### Spark Version
+
+https://docs.snowflake.com/en/user-guide/spark-connector
+
+
+````
+Spark Connector 2.x: Spark versions 3.2, 3.3, and 3.4.
+
+There’s a separate version of the Snowflake connector for each version of Spark. Use the correct version of the connector for your version of Spark.
+
+Spark Connector 3.x: Spark versions 3.2, 3.3, 3.4, and 3.5.
+
+Each Spark Connector 3 package supports most versions of Spark.
+```
+
+
+
+
+
 
 
