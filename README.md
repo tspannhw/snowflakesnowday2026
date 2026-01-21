@@ -238,3 +238,10 @@ https://docs.snowflake.com/en/developer-guide/udf/udf-overview
 
 https://docs.snowflake.com/en/developer-guide/stored-procedure/stored-procedures-overview
 
+
+
+### Demos
+
+* https://github.com/tspannhw/SnowflakeOpenLakehouseAthenaIceberg
+
+
