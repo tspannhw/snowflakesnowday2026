@@ -390,4 +390,10 @@ https://docs.snowflake.com/en/sql-reference/functions-data-generation
 
 https://www.snowflake.com/en/news/press-releases/snowflake-unveils-new-developer-tools-to-supercharge-enterprise-grade-agentic-ai-development/
 
-https://www.snowflake.com/events/snowflake-connect-ai/?
+https://www.snowflake.com/events/snowflake-connect-ai/
+
+https://www.snowflake.com/en/blog/snowflake-cortex-ai-cortex-guard-llm-safeguards/
+
+https://www.snowflake.com/en/blog/fuel-ai-strategy-with-connected-accessible-data/
+
+
