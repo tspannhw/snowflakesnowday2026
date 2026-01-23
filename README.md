@@ -1,5 +1,7 @@
 ### References
 
+https://docs.snowflake.com/en/user-guide/budgets
+
 https://docs.snowflake.com/en/user-guide/warehouses-overview
 
 https://docs.snowflake.com/en/user-guide/warehouses-multicluster
