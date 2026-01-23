@@ -1,437 +1,190 @@
-### References
+# **Snowflake Resource Compendium**
 
-https://docs.snowflake.com/en/user-guide/budgets
+A curated and categorized collection of documentation, guides, blogs, and demos related to Snowflake, Cortex AI, Iceberg, and Data Engineering.
 
-https://docs.snowflake.com/en/user-guide/warehouses-overview
+## **🧠 Cortex AI, GenAI & Machine Learning**
 
-https://docs.snowflake.com/en/user-guide/warehouses-multicluster
+### **Cortex Platform & Features**
 
-https://docs.snowflake.com/en/user-guide/query-acceleration-service
+* [Cortex Overview](https://www.snowflake.com/en/product/features/cortex/)  
+* [Cortex AI SQL Functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql)  
+* [Cortex Fine-Tuning](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-finetuning)  
+* [Cortex Playground](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-playground)  
+* [Cortex Provisioned Throughput](https://docs.snowflake.com/en/user-guide/snowflake-cortex/provisioned-throughput)  
+* [Cortex REST API](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api)  
+* [Document Parsing](https://docs.snowflake.com/en/user-guide/snowflake-cortex/parse-document)  
+* [Vector Data Types](https://docs.snowflake.com/en/sql-reference/data-types-vector)
 
-https://docs.snowflake.com/en/user-guide/warehouses-gen2
+### **Agents & Search**
 
-https://docs.snowflake.com/en/user-guide/interactive
+* [Cortex Agents Overview](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents)  
+* [Cortex Agents: Model Context Protocol (MCP)](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp)  
+* [Cortex Agents Management](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-manage)  
+* [Cortex Analyst](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst)  
+* [Cortex Search Overview](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview)  
+* [Query Cortex Search Service](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/query-cortex-search-service)  
+* [Cortex Knowledge Extensions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-knowledge-extensions/cke-overview)  
+* [Creating Snowflake Guides with Agents](https://www.snowflake.com/en/developers/guides/create-snowflake-guides-with-agents-md/) | [Agents.md](https://agents.md/)
 
-https://docs.snowflake.com/en/user-guide/tables-iceberg
 
-https://docs.snowflake.com/en/migrations/README
+<img width="7492" height="2841" alt="image" src="https://github.com/user-attachments/assets/c63dd61b-bd89-49a0-ab97-a4f4f5ecc728" />
 
-https://docs.snowflake.com/en/user-guide/storage-management/storage-lifecycle-policies-create-manage
+### **Machine Learning (Snowpark ML)**
 
-https://docs.snowflake.com/en/user-guide/querying-persisted-results
+* [Snowpark ML Overview](https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview)  
+* [Intro to ML with Snowpark for Python](https://www.snowflake.com/en/developers/guides/intro-to-machine-learning-with-snowpark-ml-for-python/)  
+* [Feature Store & Model Registry](https://www.snowflake.com/en/developers/guides/develop-and-manage-ml-models-with-feature-store-and-model-registry/)  
+* [Model Registry Overview](https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/overview)  
+* [ML Jobs](https://docs.snowflake.com/en/developer-guide/snowflake-ml/ml-jobs/overview)  
+* [ML Experiments](https://docs.snowflake.com/en/developer-guide/snowflake-ml/experiments)  
+* [Scale ML with Ray](https://docs.snowflake.com/en/developer-guide/snowflake-ml/scale-application-ray)  
+* [Distributed PyTorch on Snowflake](https://www.snowflake.com/en/developers/solutions-center/running-distributed-pytorch-models-on-snowflake-an-end-to-end-ml-solution/)
 
-https://docs.snowflake.com/en/user-guide/tutorials/snowflake-in-20minutes
+### **AI Observability & Safety**
 
-https://docs.snowflake.com/en/guides-overview-connecting
+* [AI Observability Overview](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability)  
+* [Evaluate AI Applications](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/evaluate-ai-applications)  
+* [Model Observability](https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/model-observability)  
+* [Cortex Guard (LLM Safeguards)](https://www.snowflake.com/en/blog/snowflake-cortex-ai-cortex-guard-llm-safeguards/)  
+* [AI Filter Function](https://docs.snowflake.com/en/sql-reference/functions/ai_filter)  
+* [AI Redact Function](https://docs.snowflake.com/en/sql-reference/functions/ai_redact)  
+* [TruLens (Open Source AI Observability)](https://www.snowflake.com/en/blog/trulens-open-source-ai/)
 
-https://docs.snowflake.com/en/user-guide/tables-hybrid
+## **🧊 Iceberg & Open Lakehouse**
 
-https://docs.snowflake.com/en/user-guide/interactive
+### **Tables & Catalog Integration**
 
-https://docs.snowflake.com/en/user-guide/security-access-control-overview
+* [Iceberg Tables Overview](https://docs.snowflake.com/en/user-guide/tables-iceberg)  
+* [Create Iceberg Table (AWS Glue)](https://docs.snowflake.com/en/sql-reference/sql/create-iceberg-table-aws-glue)  
+* [Create Iceberg Table (Delta)](https://docs.snowflake.com/en/sql-reference/sql/create-iceberg-table-delta)  
+* [Configure Catalog Integration (Glue)](https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-glue)  
+* [Configure Catalog Integration (REST/Glue)](https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-rest-glue)  
+* [Automated Refresh](https://docs.snowflake.com/en/user-guide/tables-iceberg-auto-refresh)  
+* [Iceberg Replication](https://docs.snowflake.com/en/user-guide/tables-iceberg-replication)  
+* [Apache Iceberg Configuration](https://iceberg.apache.org/docs/latest/configuration/#reserved-table-properties)
 
-https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions
+### **External Integrations (AWS & Others)**
 
-https://docs.snowflake.com/en/user-guide/tables-clustering-keys
+* [AWS Glue to Iceberg REST](https://docs.aws.amazon.com/glue/latest/dg/connect-glu-iceberg-rest.html)  
+* [Athena Querying Iceberg](https://docs.aws.amazon.com/athena/latest/ug/querying-iceberg.html)  
+* [Handling Schema Updates (Athena)](https://docs.aws.amazon.com/athena/latest/ug/handling-schema-updates-chapter.html)
 
-https://docs.snowflake.com/en/user-guide/tables-auto-reclustering
+## **🏗️ Core Architecture & Storage**
 
-https://docs.snowflake.com/en/user-guide/tables-temp-transient
+### **Warehouses & Compute**
 
-https://docs.snowflake.com/en/user-guide/views-materialized
+* [Virtual Warehouses Overview](https://docs.snowflake.com/en/user-guide/warehouses-overview)  
+* [Multi-cluster Warehouses](https://docs.snowflake.com/en/user-guide/warehouses-multicluster)  
+* [Query Acceleration Service](https://docs.snowflake.com/en/user-guide/query-acceleration-service)  
+* [Warehouse Gen2](https://docs.snowflake.com/en/user-guide/warehouses-gen2)
 
-https://docs.snowflake.com/en/user-guide/snowflake-horizon
+### **Storage & Tables**
 
-https://community.snowflake.com/s/article/understanding-micro-partitions-and-data-clustering
+* [Micro-partitions & Clustering](https://community.snowflake.com/s/article/understanding-micro-partitions-and-data-clustering)  
+* [Clustering Keys](https://docs.snowflake.com/en/user-guide/tables-clustering-keys)  
+* [Auto-reclustering](https://docs.snowflake.com/en/user-guide/tables-auto-reclustering)  
+* [Hybrid Tables](https://docs.snowflake.com/en/user-guide/tables-hybrid)  
+* [Dynamic Tables](https://docs.snowflake.com/en/user-guide/dynamic-tables-about)  
+* [Temporary & Transient Tables](https://docs.snowflake.com/en/user-guide/tables-temp-transient)  
+* [Storage Lifecycle Policies](https://docs.snowflake.com/en/user-guide/storage-management/storage-lifecycle-policies-create-manage)  
+* [Storage Considerations](https://docs.snowflake.com/en/user-guide/tables-storage-considerations)  
+* [Object Cloning](https://docs.snowflake.com/en/user-guide/object-clone) | [Zero Copy Cloning Blog](https://medium.com/@jaywang.recsys/snowflake-zero-copy-cloning-bcabf96d3ea9)
 
-https://www.snowflake.com/en/resources/publications/
+### **Views**
 
-https://www.vldb.org/pvldb/vol18/p5126-bress.pdf
+* [Materialized Views](https://docs.snowflake.com/en/user-guide/views-materialized)  
+* [Semantic Views Overview](https://docs.snowflake.com/en/user-guide/views-semantic/overview)  
+* [Overview of Views](https://docs.snowflake.com/en/user-guide/overview-view-mview-dts)
 
-https://www.cs.cmu.edu/~15721-f24/papers/Snowflake.pdf
+## **⚙️ Data Engineering & Integration**
 
-https://hpi.de/naumann/projects/rdbms-genealogy.html
+### **Ingestion & Pipelines**
 
-https://www.pdl.cmu.edu/PDL-FTP/Database/pax.pdf
+* [Snowpipe Intro](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro)  
+* [Snowpipe Streaming Best Practices](https://docs.snowflake.com/en/user-guide/snowpipe-streaming/snowpipe-streaming-high-performance-best-practices)  
+* [Kafka Connector](https://docs.snowflake.com/en/connectors/kafkahp/about)  
+* [Tasks & Events](https://docs.snowflake.com/en/user-guide/tasks-events)  
+* [OpenFlow](https://docs.snowflake.com/en/user-guide/data-integration/openflow/about)  
+* [Loading from Local File System](https://docs.snowflake.com/en/user-guide/data-load-local-file-system)  
+* [Loading via Web UI](https://docs.snowflake.com/en/user-guide/data-load-web-ui)
 
-https://www.vldb.org/conf/2001/P169.pdf
+### **Transformation & Tools**
 
-https://docs.snowflake.com/en/user-guide/overview-view-mview-dts
+* [dbt Projects on Snowflake](https://docs.snowflake.com/en/user-guide/data-engineering/dbt-projects-on-snowflake)  
+* [Terraform Provider](https://docs.snowflake.com/en/user-guide/terraform)  
+* [Data Engineering with Notebooks](https://www.snowflake.com/en/developers/guides/data-engineering-with-notebooks/)  
+* [Modin (Pandas)](https://github.com/modin-project/modin) | [Pandas on Snowflake](https://docs.snowflake.com/en/developer-guide/snowpark/python/pandas-on-snowflake)
 
-https://docs.snowflake.com/en/user-guide/object-clone
+### **Connectivity (Spark & Drivers)**
 
-https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/about-sap-snowflake
+* [Spark Connector User Guide](https://docs.snowflake.com/en/user-guide/spark-connector)  
+  * *Connector 2.x: Spark 3.2, 3.3, 3.4*  
+  * *Connector 3.x: Spark 3.2, 3.3, 3.4, 3.5*  
+* [Snowpark Connect (Spark Migration)](https://www.snowflake.com/en/blog/snowpark-connect-apache-spark-preview/)  
+* [JDBC Driver](https://docs.snowflake.com/en/developer-guide/jdbc/jdbc)  
+* [REST API for Lineage](https://docs.snowflake.com/en/user-guide/external-lineage)
 
-https://medium.com/@jaywang.recsys/snowflake-zero-copy-cloning-bcabf96d3ea9
+## **🛡️ Security, Governance & Observability**
 
-https://docs.snowflake.com/en/user-guide/tables-storage-considerations
+### **Security**
 
-https://docs.snowflake.com/en/sql-reference/sql/create-iceberg-table-delta
+* [Access Control Overview](https://docs.snowflake.com/en/user-guide/security-access-control-overview)  
+* [Tag-based Masking](https://docs.snowflake.com/en/user-guide/tag-based-masking-policies)  
+* [Snowflake Security Hub](https://www.snowflake.com/en/why-snowflake/snowflake-security-hub/)
 
-https://docs.snowflake.com/en/sql-reference/sql/create-iceberg-table-aws-glue
+### **Observability & Lineage**
 
-https://www.snowflake.com/en/product/analytics/
+* [Snowflake Horizon](https://docs.snowflake.com/en/user-guide/snowflake-horizon)  
+* [Logging & Tracing](https://docs.snowflake.com/en/developer-guide/logging-tracing/logging-tracing-overview)  
+* [Snowflake Trail](https://www.snowflake.com/en/product/features/snowflake-trail/)  
+* [Data Quality Monitor](https://docs.snowflake.com/en/user-guide/data-quality-ui-monitor)  
+* [Data Quality Anomaly Detection](https://docs.snowflake.com/en/user-guide/data-quality-anomaly)  
+* [Snowsight Lineage](https://docs.snowflake.com/en/user-guide/ui-snowsight-lineage)  
+* [External Lineage](https://docs.snowflake.com/en/user-guide/external-lineage)  
+* [OpenLineage](https://openlineage.io/)  
+* [Budgets](https://docs.snowflake.com/en/user-guide/budgets)
 
-FDN - Native Snowflake table FDN is French term for snowflake
+## **🤝 Partners, Migration & Marketplace**
 
-For Catalog Integration to AWS Glue https://github.com/tspannhw/SnowflakeOpenLakehouseAthenaIceberg
+### **Partners (SAP, AWS)**
 
-Unstructured text search https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/query-cortex-search-service
+* [SAP & Snowflake Partnership](https://www.snowflake.com/en/why-snowflake/partners/all-partners/sap/)  
+* [SAP Connector (OpenFlow)](https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/about-sap-snowflake)  
+* [Workday Connector](https://docs.snowflake.com/user-guide/data-integration/openflow/connectors/workday/about)
 
-https://docs.snowflake.com/en/user-guide/unstructured-intro
+### **Migration**
 
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql
+* [Migration Guide](https://docs.snowflake.com/en/migrations/README)  
+* [SnowConvert AI](https://www.snowflake.com/en/migrate-to-the-cloud/snowconvert-ai/)
 
-TAG based masking : 
-https://docs.snowflake.com/en/user-guide/tag-based-masking-policies
+### **Marketplace**
 
-Example Demos https://github.com/tspannhw/TrafficAI    
+* [Internal Marketplace](https://www.snowflake.com/en/product/use-cases/internal-marketplace/)  
+* [Organizational Listings](https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-about)
 
-https://github.com/tspannhw/SnowGhostBreakers
+## **📚 Demos, GitHub & Research**
 
-https://docs.snowflake.com/en/user-guide/tables-iceberg-replication
+### **GitHub Repositories**
 
-https://docs.snowflake.com/en/user-guide/tables-iceberg-query-using-external-query-engine-snowflake-horizon
+* [TrafficAI Demo](https://github.com/tspannhw/TrafficAI)  
+* [SnowGhostBreakers](https://github.com/tspannhw/SnowGhostBreakers)  
+* [Snowflake Open Lakehouse (Athena/Iceberg)](https://github.com/tspannhw/SnowflakeOpenLakehouseAthenaIceberg)  
+* [Trades Realtime Streaming](https://github.com/tspannhw/TradesRealtime)  
+* [RPI Weather Streaming](https://github.com/tspannhw/RPIWeatherStreaming)  
+* [RPI Thermal Streaming](https://github.com/tspannhw/RPIThermalStreaming)  
+* [Semantic Model Generator](https://github.com/Snowflake-Labs/semantic-model-generator)  
+* [Retail Banking AI Demo](https://github.com/sfc-gh-maduran/RETAIL_BANKING_AI_DEMO)  
+* [AISQL Finserv Demo](https://github.com/sfc-gh-maduran/AISQL_FINSERV_AM)
 
-https://www.snowflake.com/en/product/features/horizon/
+### **Academic & Whitepapers**
 
-https://www.snowflake.com/en/news/press-releases/snowflake-delivers-the-enterprise-lakehouse-with-enhanced-open--data-access-and-flexibility-for-agentic-ai/
+* [Snowflake Paper (CMU)](https://www.cs.cmu.edu/~15721-f24/papers/Snowflake.pdf)  
+* [The Data Cloud (VLDB)](https://www.vldb.org/pvldb/vol18/p5126-bress.pdf)  
+* [PAX Storage Model](https://www.pdl.cmu.edu/PDL-FTP/Database/pax.pdf)  
+* [RDBMS Genealogy](https://hpi.de/naumann/projects/rdbms-genealogy.html)
 
-https://www.snowflake.com/en/why-snowflake/partners/all-partners/sap/
+### **Other Resources**
 
-https://www.snowflake.com/en/blog/sap-snowflake-partnership-ai-data-cloud/
-
-https://www.snowflake.com/en/why-snowflake/snowflake-security-hub/
-
-https://docs.snowflake.com/en/user-guide/data-quality-anomaly
-
-https://docs.snowflake.com/en/user-guide/data-quality-ui-monitor
-
-https://docs.snowflake.com/en/user-guide/data-quality-profile
-
-https://docs.snowflake.com/en/user-guide/external-lineage
-
-https://openlineage.io/
-
-https://docs.snowflake.com/en/developer-guide/logging-tracing/logging-tracing-overview
-
-https://opentelemetry.io/
-
-https://docs.snowflake.com/en/release-notes/2025/other/2025-09-17-task-lineage
-
-https://docs.snowflake.com/en/user-guide/ui-snowsight-lineage
-
-https://docs.snowflake.com/en/user-guide/dynamic-tables-about
-
-https://docs.snowflake.com/en/user-guide/data-engineering/dbt-projects-on-snowflake
-
-https://docs.snowflake.com/en/user-guide/tables-external-intro
-
-https://docs.snowflake.com/en/user-guide/tables-hybrid
-
-https://docs.snowflake.com/en/user-guide/interactive
-
-https://docs.snowflake.com/en/user-guide/tasks-events
-
-https://docs.snowflake.com/en/user-guide/terraform
-
-REST API    https://docs.snowflake.com/en/user-guide/external-lineage
-
-/api/v2/lineage/external-lineage
-
-https://docs.snowflake.com/en/developer-guide/builders/observability
-
-https://docs.getmontecarlo.com/docs/snowflake
-
-https://docs.snowflake.com/en/user-guide/replication-intro
-
-https://docs.snowflake.com/en/user-guide/backups
-
-Semantic view https://docs.snowflake.com/en/user-guide/views-semantic/overview
-
-
-https://docs.snowflake.com/en/user-guide/views-semantic/overview
-
-
-https://www.snowflake.com/en/product/use-cases/internal-marketplace/
-
-https://www.snowflake.com/en/developers/guides/internal-marketplace-intra-org-sharing/
-
-https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-about
-
-Top level to look at https://docs.snowflake.com/en/user-guide/intro-key-concepts
-
-https://www.snowflake.com/en/blog/ai-ready-data-products-snowflake-internal-marketplace/
-
-https://www.snowflake.com/en/blog/osi-initiative-expands-partners/
-
-https://github.com/Snowflake-Labs/semantic-model-generator
-
-To see a glimpse of what I was trying to show, go to:  https://www.snowflake.com/en/developers/guides/agentic-ai-for-asset-management/
-
-https://www.snowflake.com/en/developers/guides/data-engineering-with-notebooks/
-
-Easy Button -> https://app.snowflake.com/sfsenorthamerica/tspann_aws1/#/compute/history/dynamic-tables
-
-People can simply upload a CSV, parquet file from UI or S3.    https://docs.snowflake.com/en/user-guide/data-load-local-file-system
-
-https://docs.snowflake.com/en/user-guide/data-load-web-ui
-
-Scalable distributed pandas https://docs.snowflake.com/en/developer-guide/snowpark/python/pandas-on-snowflake   
-
-modin https://github.com/modin-project/modin
-
-
-Drag and drop ETL/ELT on top of Apache NiFi https://docs.snowflake.com/en/user-guide/data-integration/openflow/about
-
-https://www.snowflake.com/en/product/features/snowflake-trail/
-
-https://medium.com/snowflake/new-in-snowflake-trail-enhanced-logs-tracing-and-metrics-for-snowpark-a2476198e14e
-
-https://www.snowflake.com/en/blog/observability-new-era-with-snowflake-trail/
-
-
-https://www.snowflake.com/en/developers/guides/getting-started-with-traces/#0
-
-https://docs.snowflake.com/en/connectors/kafkahp/about
-
-https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro
-
-
-Some examples https://github.com/tspannhw/TradesRealtime    
-
-https://github.com/tspannhw/RPIWeatherStreaming    
-
-Python, Java and REST API versions.   More coming.  
-
-https://github.com/tspannhw/RPIThermalStreaming
-
-https://docs.snowflake.com/en/user-guide/snowpipe-streaming/snowpipe-streaming-high-performance-best-practices
-
-https://www.snowflake.com/en/developers/guides/agentic-ai-for-asset-management/
-
-https://www.snowflake.com/en/blog/sap-snowflake-partnership-ai-data-cloud/
-
-https://www.snowflake.com/en/why-snowflake/partners/all-partners/sap/
-
-https://docs.snowflake.com/user-guide/data-integration/openflow/connectors/workday/about
-
-https://docs.snowflake.com/en/developer-guide/snowflake-ml/scale-application-ray  and also Ray
-
-https://www.snowflake.com/en/product/features/snowpark/
-
-https://www.snowflake.com/webinars/virtual-hands-on-labs/build-data-engineering-pipelines-using-snowpark-in-snowflake-notebooks-2025-06-25/?utm_cta=website-use-case-snowpark-timely-content-offer-1-try-snowpark-vhol
-
-https://www.snowflake.com/en/blog/snowpark-connect-apache-spark-preview/
-
-https://www.snowflake.com/en/migrate-to-the-cloud/snowconvert-ai/
-
-https://docs.snowflake.com/en/migrations/sma-docs/user-guide/conversion/how-the-conversion-works
-
-https://docs.snowflake.com/en/user-guide/spark-connector
-
-https://docs.snowflake.com/en/developer-guide/jdbc/jdbc
-
-https://docs.snowflake.com/en/developer-guide/snowpark-connect/snowpark-submit
-
-https://docs.snowflake.com/en/user-guide/dynamic-tables-create-iceberg
-
-https://docs.snowflake.com/en/developer-guide/udf/udf-overview
-
-https://docs.snowflake.com/en/developer-guide/stored-procedure/stored-procedures-overview
-
-https://www.snowflake.com/en/engineering-blog/snowflake-platform-data-lake/
-https://docs.snowflake.com/en/sql-reference/sql/create-iceberg-table-aws-glue
-https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-glue
-https://docs.snowflake.com/en/user-guide/tables-iceberg-auto-refresh
-https://docs.snowflake.com/en/sql-reference/sql/create-catalog-integration-glue
-https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-rest-glue
-
-https://docs.aws.amazon.com/glue/latest/dg/connect-glu-iceberg-rest.html
-
-https://docs.snowflake.com/en/sql-reference/sql/create-catalog-integration-glue
-
-https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-glue
-
-https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-rest-glue
-
-https://docs.aws.amazon.com/athena/latest/ug/handling-schema-updates-chapter.html
-
-https://docs.aws.amazon.com/athena/latest/ug/tables-databases-columns-names.html
-
-https://iceberg.apache.org/docs/latest/configuration/#reserved-table-properties
-
-https://docs.aws.amazon.com/athena/latest/ug/querying-iceberg.html
-
-
-### Demos
-
-* https://github.com/tspannhw/SnowflakeOpenLakehouseAthenaIceberg
-  
-
-### Spark Version
-
-https://docs.snowflake.com/en/user-guide/spark-connector
-
-
-
-Spark Connector 2.x: Spark versions 3.2, 3.3, and 3.4.
-
-There’s a separate version of the Snowflake connector for each version of Spark. Use the correct version of the connector for your version of Spark.
-
-Spark Connector 3.x: Spark versions 3.2, 3.3, 3.4, and 3.5.
-
-Each Spark Connector 3 package supports most versions of Spark.
-
-
-
-
-
-### Cortex AI
-
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql
-
-https://docs.snowflake.com/en/sql-reference/functions/ai_filter
-
-https://docs.snowflake.com/en/sql-reference/functions/ai_redact
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/parse-document
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents
-
-https://www.snowflake.com/en/developers/guides/getting-started-with-cortex-agents/
-
-https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-intelligence/
-
-https://docs.snowflake.com/en/release-notes/2025/other/2025-04-28-cortex-llm-model-rbac
-
-https://docs.snowflake.com/en/release-notes/2024/other/2024-07-24-cortex-llm-updates
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/evaluate-ai-applications
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability
-
-https://www.snowflake.com/en/product/features/cortex/
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-knowledge-extensions/cke-overview
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-manage
-
-https://docs.snowflake.com/en/sql-reference/commands-cortex-agent
-
-https://docs.snowflake.com/en/user-guide/views-semantic/ui
-
-https://www.snowflake.com/en/developers/guides/snowflake-semantic-view-agentic-analytics/
-
-https://www.snowflake.com/en/blog/osi-initiative-expands-partners/
-
-https://www.snowflake.com/event/partnering-for-open-standards-join-the-open-semantic-interchange/
-
-https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview
-
-https://www.snowflake.com/en/developers/guides/ml-forecasting-ad/
-
-https://github.com/sfc-gh-maduran/AISQL_FINSERV_AM
-
-https://github.com/sfc-gh-maduran/RETAIL_BANKING_AI_DEMO
-
-https://www.snowflake.com/en/product/features/end-to-end-ml-workflows/
-
-https://www.snowflake.com/en/engineering-blog/machine-learning-container-runtime/
-
-https://www.snowflake.com/en/developers/solutions-center/getting-started-with-snowflake-notebook-container-runtime/
-
-https://www.snowflake.com/en/developers/solutions-center/harness-gpus-in-snowflake-notebooks-to-train-an-xgboost-model/
-
-https://www.snowflake.com/en/developers/solutions-center/running-distributed-pytorch-models-on-snowflake-an-end-to-end-ml-solution/
-
-https://www.snowflake.com/data-cloud-academy-generative-ai-llm/?utm_cta=website-workload-ml-product-feature-timely-content-gen-ai-ml-school
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-playground
-
-https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/overview
-
-https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/model-observability
-
-https://www.snowflake.com/en/developers/guides/scale-embeddings-with-snowflake-notebooks-on-container-runtime/
-
-https://www.snowflake.com/en/developers/guides/develop-and-manage-ml-models-with-feature-store-and-model-registry/
-
-https://www.snowflake.com/en/developers/guides/intro-to-machine-learning-with-snowpark-ml-for-python/
-
-https://www.snowflake.com/en/developers/guides/getting-started-with-ml-observability-in-snowflake/
-
-https://docs.snowflake.com/en/developer-guide/snowflake-ml/ml-jobs/overview?
-
-https://www.snowflake.com/en/blog/scalable-model-development-production-snowflake-ml/
-
-https://docs.snowflake.com/en/developer-guide/snowflake-ml/experiments
-
-
-<img width="7492" height="2841" alt="image" src="https://github.com/user-attachments/assets/b3bc5979-ee95-4160-b18f-786061fbcb28" />
-
-
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-finetuning
-
-
-https://www.snowflake.com/en/blog/container-runtime-GPU-training-inference/
-
-https://docs.snowflake.com/en/user-guide/synthetic-data
-
-https://docs.snowflake.com/en/sql-reference/functions-data-generation
-
-https://www.snowflake.com/en/news/press-releases/snowflake-unveils-new-developer-tools-to-supercharge-enterprise-grade-agentic-ai-development/
-
-https://www.snowflake.com/events/snowflake-connect-ai/
-
-https://www.snowflake.com/en/blog/snowflake-cortex-ai-cortex-guard-llm-safeguards/
-
-https://www.snowflake.com/en/blog/fuel-ai-strategy-with-connected-accessible-data/
-
-https://medium.com/snowflake/optimize-snowflake-intelligence-cortex-agent-setup-a-complete-ai-powered-guide-f01383ac6969
-
-
-
-https://www.snowflake.com/en/developers/guides/create-snowflake-guides-with-agents-md/
-https://agents.md/
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/evaluate-ai-applications
-
-https://docs.snowflake.com/en/sql-reference/data-types-vector
-
-https://www.snowflake.com/en/blog/trulens-open-source-ai/
-
-https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability
-
-https://www.snowflake.com/en/developers/guides/getting-started-with-ai-observability/
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/reference
-
-
-https://docs.snowflake.com/en/user-guide/snowflake-cortex/provisioned-throughput
-
-https://docs.snowflake.com/en/user-guide/budgets
-
-https://docs.snowflake.com/en/user-guide/budgets/monitor
-
-
-
-
-### Observe
-
-https://www.snowflake.com/en/news/press-releases/snowflake-announces-intent-to-acquire-observe-to-deliver-ai-powered-observability-at-enterprise-scale/
-
-
-
+* [Synthetic Data Generation](https://docs.snowflake.com/en/user-guide/synthetic-data)  
+* [Unstructured Data Intro](https://docs.snowflake.com/en/user-guide/unstructured-intro)  
+* [Snowflake in 20 Minutes](https://docs.snowflake.com/en/user-guide/tutorials/snowflake-in-20minutes)
