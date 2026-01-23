@@ -2,6 +2,11 @@
 
 A curated and categorized collection of documentation, guides, blogs, and demos related to Snowflake, Cortex AI, Iceberg, and Data Engineering.
 
+## **Trial**
+
+* [Free Trial](https://signup.snowflake.com/)
+
+  
 ## **🧠 Cortex AI, GenAI & Machine Learning**
 
 ### **Cortex Platform & Features**
