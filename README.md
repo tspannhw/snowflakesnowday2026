@@ -143,6 +143,7 @@ A curated and categorized collection of documentation, guides, blogs, and demos 
 * [External Lineage](https://docs.snowflake.com/en/user-guide/external-lineage)  
 * [OpenLineage](https://openlineage.io/)  
 * [Budgets](https://docs.snowflake.com/en/user-guide/budgets)
+* [OpenLineage](https://medium.com/snowflake/achieving-cross-platform-lineage-on-snowflake-f311eadd6811)
 
 ## **🤝 Partners, Migration & Marketplace**
 
